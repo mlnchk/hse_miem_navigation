@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header, footer{
+    box-sizing: border-box;
+    background: #363636;
+    color: bisque;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    height: 10vh;
+    padding-top: 1vh;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.app{
+    box-sizing: border-box;
+    background: #ddd9d9;
+    height: 80vh;
+}
+
+.pather3{
+    /*display: none;*/
+    stroke: #0000ff !important;
+}
