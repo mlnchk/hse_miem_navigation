@@ -40,8 +40,6 @@ def path_finder(start, end):
         '325': {'324', '302', 'LW'}
     }
 
-    # start, end = 'LW', '314'
-
     all_ways = list(dfs_paths(graph, start, end))
     minimum = len(all_ways[0])
     for i in all_ways:

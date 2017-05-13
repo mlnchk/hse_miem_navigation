@@ -1,110 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>MIEM-nav</title>
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-    <header>
-        <h1>MIEM Navigation Project</h1>
-    </header>
-    
-    <div class="app">
-<!--
-        <object data="test.svg" type="image/svg+xml">
-            
-        </object>
--->
 
-    <form action="/" method="post" name="login">
-        {{ form.hidden_tag() }}
-        <p class="input-field">
-            {{ form.start(size=0, placeholder="enter vk id") }}
-            {{ form.finish(size=0, placeholder="enter vk id") }}
-        <input class="search" type="submit" value="search"></p>
-    </form>
+	<head>
+		<meta charset="UTF-8">
+		<title>MIEM-nav</title>
+		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+	</head>
 
-    <p class="">{{ start }}</p>
-    <p class="">{{ finish }}</p>
-    <p id="path" class="">{{ tmp }}</p>
+	<body>
+		<header>
+			<h1>MIEM Navigation Project</h1>
+		</header>
 
-   <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1280 800" style="enable-background:new 0 0 1280 800;" xml:space="preserve">
-<style type="text/css">
-	.st0{display:none;}
-	.st1{stroke:#000000;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#FF0000;stroke-width:3;stroke-miterlimit:10;}
-</style>
-<g id="Слой_2">
-	<path class="st1" d="M189.7,87.7"/>
-	<path class="st2" d="M717.5,88v32.5h310V356c-204-28.4-408.7-56.9-613.5-85.3c-15.5-1.8-36.1-5.4-60.2-13.3
-		c-17.3-5.7-43.2-14.6-71.8-35.3c-5.7-4.1-29.1-21.7-51.9-52.3c-22.6-30.4-35.3-60.4-41.6-82L652.7,88L717.5,88z"/>
-	<polyline class="st2" points="679,120.5 711,120.5 717,120.5 	"/>
-	<polyline class="st2" points="665,120.5 653.5,120.5 653.5,88 	"/>
-	<path class="st2" d="M903.5,339v328c0,0-35.5,5.8-54,29.3S825,743.5,825,743.5H662.5V557L620,495l13.5-9.5l23,31.5"/>
-	<path class="st3" d="M652.5,121v52.5H268c0,0-19-23-28.5-40s-19.2-45.6-19.2-45.6"/>
-	<line class="st3" x1="288.5" y1="174" x2="288.5" y2="88"/>
-	<line class="st3" x1="348.5" y1="174" x2="348.5" y2="88"/>
-	<line class="st3" x1="410.5" y1="174" x2="410.5" y2="88"/>
-	<line class="st3" x1="471.5" y1="174" x2="471.5" y2="88"/>
-	<line class="st3" x1="532.5" y1="174" x2="532.5" y2="88"/>
-	<line class="st3" x1="594.5" y1="174" x2="594.5" y2="88"/>
-	<polyline class="st3" points="684.5,121 684.5,197.5 1027,197.5 	"/>
-	<line class="st3" x1="777.5" y1="121" x2="777.5" y2="198"/>
-	<line class="st3" x1="806.5" y1="121" x2="806.5" y2="198"/>
-	<line class="st3" x1="901.5" y1="121" x2="901.5" y2="198"/>
-	<line class="st3" x1="930.5" y1="121" x2="930.5" y2="198"/>
-	<polyline class="st3" points="279.2,220.6 300,193.5 517.5,193.5 517.5,220.5 632.5,220.5 632.5,249.5 674.5,249.5 674.5,272.5 
-		1027,272.5 	"/>
-	<polyline class="st3" points="1027,246.5 964.5,246.5 964.5,198 	"/>
-	<line class="st3" x1="930.5" y1="342" x2="930.5" y2="273"/>
-	<line class="st3" x1="903.5" y1="273" x2="903.5" y2="339"/>
-	<line class="st3" x1="803.5" y1="273" x2="803.5" y2="325"/>
-	<line class="st3" x1="777.5" y1="273" x2="777.5" y2="321"/>
-	<line class="st3" x1="755.5" y1="273" x2="755.5" y2="319"/>
-	<path class="st2" d="M717.5,273v40v56c0,0-2.2,37.3-6.2,50.3s-16.7,43-16.7,43l-27.3-17.7l-14,20.3l27,20.7l11.7-19"/>
-	<polyline class="st3" points="674,272.5 644.5,272.5 644.5,303 	"/>
-	<line class="st3" x1="668.5" y1="306" x2="668.5" y2="273"/>
-	<line class="st3" x1="632.5" y1="250" x2="632.5" y2="301"/>
-	<polyline class="st3" points="576.5,221 576.5,268.5 632,268.5 	"/>
-	<line class="st3" x1="550.5" y1="221" x2="550.5" y2="290"/>
-	<polyline class="st3" points="517,220.5 472.5,220.5 472.5,194 	"/>
-	<line class="st3" x1="472.5" y1="221" x2="472.5" y2="279"/>
-	<line class="st3" x1="415.5" y1="194" x2="415.5" y2="271"/>
-	<line class="st3" x1="352.5" y1="194" x2="352.5" y2="258"/>
-</g>
-<g id="pathline">
-	<line class="st4" x1="916" y1="228.5" x2="941" y2="228.5"/>
-	<line class="st4" x1="851" y1="228.5" x2="916" y2="228.5"/>
-	<line class="st4" x1="792" y1="228.5" x2="851" y2="228.5"/>
-	<line class="st4" x1="768" y1="228.5" x2="792" y2="228.5"/>
-	<line class="st4" x1="739" y1="228.5" x2="768" y2="228.5"/>
-	<line class="st4" x1="701" y1="228.5" x2="739" y2="228.5"/>
-	<polyline id="307-WC-LN-317" class="st4" points="622,207.5 667.5,207.5 667.5,228.5 701,228.5 	"/>
-	<polyline id="321-305-306-WC" class="st4" points="506,184.5 566.5,184.5 566.5,207.5 622,207.5 	"/>
-	<line id="304-305-323-321" class="st4" x1="443" y1="184.5" x2="506" y2="184.5"/>
-	<line id="303-304-324-323" class="st4" x1="382" y1="184.5" x2="443" y2="184.5"/>
-	<line id="302-303-325-324" class="st4" x1="321" y1="184.5" x2="382" y2="184.5"/>
-	<line id="301-302-325" class="st4" x1="279" y1="184.5" x2="321" y2="184.5"/>
-</g>
-</svg>
+		<div class="app">
 
-   
-    </div>
-    
-    <footer>
-        
-    </footer>
+			<form action="/" method="post" name="login">
+				{{ form.hidden_tag() }}
+				<p class="input-field">
+					{{ form.start(size=0, placeholder="enter vk id") }}
+					{{ form.finish(size=0, placeholder="enter vk id") }}
+					<input class="search" type="submit" value="search">
+				</p>
+			</form>
 
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
-</body>
+			<p id="start-data">{{ start }}</p>
+			<p id="finish-data">{{ finish }}</p>
+			<p id="path" class="">{{ tmp }}</p>
+
+            <button class="hidden" id="next-step">Next step</button>
+
+            {% include 'map.svg' %}
+
+		</div>
+
+		<footer>
+
+		</footer>
+
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+
+	</body>
 </html>
