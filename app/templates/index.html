@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>MIEM-nav</title>
+        <meta name=viewport content="width=device-width, initial-scale=1">
 		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 	</head>
 
@@ -11,27 +12,35 @@
 		<header>
 			<h1>MIEM Navigation Project</h1>
 		</header>
+        <div class="wrapper">
+            <div class="app">
 
-		<div class="app">
+                <p>
+                    MIEM navigation
+                </p>
 
-			<form action="/" method="post" name="login">
-				{{ form.hidden_tag() }}
-				<p class="input-field">
-					{{ form.start(size=0, placeholder="enter vk id") }}
-					{{ form.finish(size=0, placeholder="enter vk id") }}
-					<input class="search" type="submit" value="search">
-				</p>
-			</form>
+                <form action="/" method="post" name="login">
+                    {{ form.hidden_tag() }}
+                    {{ form.start(size=0, placeholder="whence") }}
+                    {{ form.finish(size=0, placeholder="where") }}
+                    <input class="search" type="submit" value="search">
+                </form>
 
-			<p id="start-data">{{ start }}</p>
-			<p id="finish-data">{{ finish }}</p>
-			<p id="path" class="">{{ tmp }}</p>
+                <button class="hidden" id="next-step">Next step</button>
 
-            <button class="hidden" id="next-step">Next step</button>
+                <p id="start-data" class="hidden">{{ start }}</p>
+                <p id="finish-data" class="hidden">{{ finish }}</p>
+                <p id="path" class="">{{ tmp }}</p>
+
+
+
+
+
+            </div>
 
             {% include 'map.svg' %}
 
-		</div>
+        </div>
 
 		<footer>
 

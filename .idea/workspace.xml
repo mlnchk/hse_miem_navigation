@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68bc4f92-a0c2-40cb-81f0-2672634e1443" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pathfinder.py" afterPath="$PROJECT_DIR$/app/pathfinder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/script.js" afterPath="$PROJECT_DIR$/app/static/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/style.css" afterPath="$PROJECT_DIR$/app/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/map.svg" afterPath="$PROJECT_DIR$/app/templates/map.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hse_miem_navigation$hse_miem_navigation.coverage" NAME="hse_miem_navigation Coverage Results" MODIFIED="1494710175272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,11 +39,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+            <state relative-caret-position="2898">
+              <caret line="165" column="41" lean-forward="false" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
+                <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
               </folding>
             </state>
           </provider>
@@ -45,8 +52,8 @@
       <file leaf-file-name="pathfinder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pathfinder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -55,39 +62,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/map.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="1194" column="0" lean-forward="true" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#1;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#3;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#5;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#10;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#11;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#16;n#svg#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +72,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="352">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -111,6 +88,12 @@
       <find>LS</find>
       <find>LE</find>
       <find>WC</find>
+      <find>'</find>
+      <find>}</find>
+      <find>208317</find>
+      <find>317</find>
+      <find>wc</find>
+      <find>tem</find>
     </findStrings>
     <replaceStrings>
       <replace>LW3</replace>
@@ -126,6 +109,8 @@
       <replace>Lu4</replace>
       <replace>WC3</replace>
       <replace>WC4</replace>
+      <replace>&quot;</replace>
+      <replace>]</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -134,10 +119,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/templates/map.svg" />
-        <option value="$PROJECT_DIR$/app/pathfinder.py" />
+        <option value="$PROJECT_DIR$/app/graph.json" />
         <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/static/style.css" />
+        <option value="$PROJECT_DIR$/app/pathfinder.py" />
         <option value="$PROJECT_DIR$/app/static/script.js" />
       </list>
     </option>
@@ -499,24 +486,24 @@
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15378486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14023905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27863777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,6 +517,124 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/templates/map.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21492">
+          <caret line="1194" column="0" lean-forward="false" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="87" lean-forward="false" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pathfinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="1" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="181" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/map.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21492">
+          <caret line="1194" column="0" lean-forward="false" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="87" lean-forward="false" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pathfinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/map.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21492">
+          <caret line="1194" column="0" lean-forward="true" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -544,7 +649,7 @@
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
           </folding>
         </state>
       </provider>
@@ -569,27 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7884">
           <caret line="438" column="11" lean-forward="false" selection-start-line="438" selection-start-column="11" selection-end-line="438" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#5;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#11;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#16;n#svg#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +700,7 @@
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
           </folding>
         </state>
       </provider>
@@ -640,27 +725,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="150" column="11" lean-forward="false" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#5;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#11;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#16;n#svg#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +751,7 @@
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
           </folding>
         </state>
       </provider>
@@ -711,27 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="150" column="11" lean-forward="true" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#5;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#11;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#16;n#svg#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +802,7 @@
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
           </folding>
         </state>
       </provider>
@@ -782,27 +827,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#5;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#11;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#16;n#svg#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +853,7 @@
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
           </folding>
         </state>
       </provider>
@@ -849,6 +874,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/graph.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1202">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -857,72 +896,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms.py">
+    <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2898">
+          <caret line="165" column="41" lean-forward="false" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1494734014469" expanded="true" signature="5483:5511" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/map.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="1194" column="0" lean-forward="true" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#5;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#11;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#16;n#svg#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="828">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pathfinder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1494642498017" expanded="true" signature="2196:2215" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="352">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding />
         </state>
       </provider>
